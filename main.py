@@ -1,4 +1,4 @@
-import requests, re, base64, random, string, time,httpx,uuid, asyncio,json,telebot
+import requests, re, base64, random, string, time,httpx,uuid, asyncio,json
 from telebot import types
 from datetime import datetime, timedelta
 from collections import deque
@@ -11,10 +11,6 @@ keep_alive()
 
 BOT_API_KEY = '6990331464:AAGEVZkR3knDiyWLCNKmp1BzpPwzfhzjnHs'
 OWNER_ID = 6922106594
-
-
-bot = telebot.TeleBot(BOT_API_KEY)
-AUTHORIZED_USER_IDS = [OWNER_ID]  
 
 
 user_tasks = {}
