@@ -13,10 +13,6 @@ BOT_API_KEY = '6990331464:AAGEVZkR3knDiyWLCNKmp1BzpPwzfhzjnHs'
 OWNER_ID = 6922106594
 
 
-bot = telebot.TeleBot(BOT_API_KEY)
-AUTHORIZED_USER_IDS = [OWNER_ID]  
-
-
 user_tasks = {}
 
 # Load premium users from file
