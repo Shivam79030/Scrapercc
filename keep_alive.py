@@ -5,10 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "I'm Gay!"
-
-def run():
-  app.run(host='0.0.0.0',port=8080)
+    return "I'm Gay!
 
 def keep_alive():  
     t = Thread(target=run)
